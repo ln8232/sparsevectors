@@ -14,18 +14,14 @@ It supports arithmetic, standardization, plotting, and cross products of sparse 
 
 
 ## Features
-S4 class sparse_numeric for mostly-zero numeric vectors
+- S4 class `sparse_numeric` for mostly-zero numeric vectors
+- Arithmetic operations: +, -, *
+- Cross product: `sparse_crossprod()`
+- Norm: `norm()`
+- Standardization: `standardize()`
+- Plotting overlapping non-zero elements
+- Conversion to/from standard numeric vectors
+- Mean calculation including zeros
 
-Arithmetic operations: +, -, *
-
-Cross product: sparse_crossprod()
-
-Norm: norm()
-
-Standardization: standardize()
-
-Plotting overlapping non-zero elements
-
-Conversion to/from standard numeric vectors
-
-Mean calculation including zeros
+## Website
+https://ln8232.github.io/sparsevectors/
