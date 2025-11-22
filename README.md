@@ -1,32 +1,27 @@
-sparsevectors
-================
+---
+title: "sparsevectors"
+output: github_document
+---
 
 ## sparsevectors
 
-`sparsevectors` provides an S4 class `sparse_numeric` for representing
-mostly-zero numeric vectors efficiently.  
-It supports arithmetic, standardization, plotting, and cross products of
-sparse numeric vectors.
+`sparsevectors` provides an S4 class `sparse_numeric` for representing mostly-zero numeric vectors efficiently.  
+It supports arithmetic, standardization, plotting, and cross products of sparse numeric vectors.
 
 <!-- badges: start -->
-
-[![R-CMD-check](https://github.com/ln8232/sparsevectors/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ln8232/sparsevectors/actions/workflows/R-CMD-check.yaml)
+  [![R-CMD-check](https://github.com/ln8232/sparsevectors/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ln8232/sparsevectors/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
+
 ## Features
+- S4 class `sparse_numeric` for mostly-zero numeric vectors
+- Arithmetic operations: +, -, *
+- Cross product: `sparse_crossprod()`
+- Norm: `norm()`
+- Standardization: `standardize()`
+- Plotting overlapping non-zero elements
+- Conversion to/from standard numeric vectors
+- Mean calculation including zeros
 
-S4 class sparse_numeric for mostly-zero numeric vectors
-
-Arithmetic operations: +, -, \*
-
-Cross product: sparse_crossprod()
-
-Norm: norm()
-
-Standardization: standardize()
-
-Plotting overlapping non-zero elements
-
-Conversion to/from standard numeric vectors
-
-Mean calculation including zeros
+## Website
+https://ln8232.github.io/sparsevectors/
