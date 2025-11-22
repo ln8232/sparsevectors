@@ -29,5 +29,3 @@ Plotting overlapping non-zero elements
 Conversion to/from standard numeric vectors
 
 Mean calculation including zeros
-
-
